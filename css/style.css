@@ -1,0 +1,373 @@
+body {
+    margin: 0;
+    font-family: Exo, Krona One, Helvetica;
+}
+
+header {
+    background-color: #201c1c;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.logo {
+    max-height: 100px;
+}
+
+header ul {
+    float: right;
+    color: rgb(121, 118, 118);
+}
+
+header li {
+    display: inline-block;
+    padding: 25px 40px 0px 25px;
+}
+
+.listItem:hover {
+    color: #D9435F;
+}
+
+.aboutHeading {
+    padding-left: 200px;
+    padding-bottom: 0px;
+    font-size: 24px;
+    margin-bottom: -10px;
+}
+
+.skillsSection {
+    background-color: lightslategray;
+}
+
+#skills .max-width {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    grid-gap: 0;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.skillsHeading {
+    padding-left: 200px;
+    padding-bottom: 0px;
+    padding-top: 20px;
+    font-size: 24px;
+    margin-bottom: -10px;
+}
+
+.skillsBoxes {
+    padding: 20px;
+    justify-content: space-evenly;
+}
+
+ul.card {
+    border-radius: 15px;
+    padding: 20px 20px 20px 40px;
+    
+}
+
+.downArrowbounce hr {
+    background-color: black;
+    margin-top: 10px;
+    height: 1px;
+    border-width: 0px; 
+    width: 1920px;
+    margin-left: 0px;
+    margin-right: 0px;
+   }
+
+
+    body {
+        background: white;
+      }
+      .downArrow{
+          top: 20%;
+          bottom:20%;
+          left: 50%;
+          right: 50%;
+          text-align: center;
+        }
+      .bounce {
+          -moz-animation: bounce 3s infinite;
+          -webkit-animation: bounce 3s infinite;
+          animation: bounce 3s infinite;
+      }
+      @-moz-keyframes bounce {
+        0%, 20%, 50%, 80%, 100% {
+          -moz-transform: translateY(0);
+          transform: translateY(0);
+        }
+        40% {
+          -moz-transform: translateY(-30px);
+          transform: translateY(-30px);
+        }
+        60% {
+          -moz-transform: translateY(-15px);
+          transform: translateY(-15px);
+        }
+      }
+      @-webkit-keyframes bounce {
+        0%, 20%, 50%, 80%, 100% {
+          -webkit-transform: translateY(0);
+          transform: translateY(0);
+        }
+        40% {
+          -webkit-transform: translateY(-30px);
+          transform: translateY(-30px);
+        }
+        60% {
+          -webkit-transform: translateY(-15px);
+          transform: translateY(-15px);
+        }
+      }
+      @keyframes bounce {
+        0%, 20%, 50%, 80%, 100% {
+          -moz-transform: translateY(0);
+          -ms-transform: translateY(0);
+          -webkit-transform: translateY(0);
+          transform: translateY(0);
+        }
+        40% {
+          -moz-transform: translateY(-30px);
+          -ms-transform: translateY(-30px);
+          -webkit-transform: translateY(-30px);
+          transform: translateY(-30px);
+        }
+        60% {
+          -moz-transform: translateY(-15px);
+          -ms-transform: translateY(-15px);
+          -webkit-transform: translateY(-15px);
+          transform: translateY(-15px);
+        }
+      }
+
+.workSection1 {
+    background-color: white;
+}
+
+.workSection2 {
+    background-color: grey;
+}
+
+.workSection4 {
+    background-color: black;
+}
+
+#myWorkleft {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding-bottom: 10px;
+    grid-gap: 20px;
+}
+
+#myWorkright {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    grid-gap: 20px;
+}
+
+
+#eakc {
+    display: flex;
+    align-items: flex-end;
+}
+
+#DOE {
+    display: flex;
+    align-items: flex-end;
+    background-color: grey;
+}
+
+.workGridArea1 {
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 60px;
+    display: grid;
+    align-content: end;
+}
+
+.heroText1 {
+    color: black;
+    padding-bottom: 90px
+}
+
+.heroText2 {
+    color: black;
+    padding-bottom: 200px;      
+}
+
+.heroText3 {
+    color: black;
+    padding-bottom: 220px;
+}
+
+.heroText4 {
+    color: white;
+    padding-bottom: 200px;
+}
+
+#casestudy1img {
+    height: 600px;   
+}
+.workGridArea2 {
+    display: grid;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.aboutText {
+    padding-top: 70px;
+}
+
+p2 {
+    color: black;
+    font-size: 13px;
+    padding-top: 20px;
+}
+
+p3 {
+    color: white;
+    font-size: 13px;
+    padding-top: 20px;
+}
+
+
+.grid-item {
+    padding: 0px 40px 20px 40px;
+}
+
+.line:before {
+    content: " ";
+    display: block;
+    width: 120px;
+    height: 2px;
+    background: grey;
+    position: absolute;
+    left: auto;
+    right: 0;
+  }
+
+footer {
+    height: 100px;
+    background-color: #201c1c;
+    padding: 5px
+}
+
+footer ul {
+    float: left;
+    color: rgb(121, 118, 118);
+}
+
+footer li {
+    display: inline-block;
+    padding:  25px 0px 25px 40px;
+}
+
+.content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: white;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: "copy right";
+    grid-gap: 40px;
+}
+
+.copy {
+    grid-area: copy;
+    display: flex;
+    text-align: left;
+    align-content: center;
+}
+
+.headshot {
+    max-height: 300px;
+    width: auto;
+}
+
+button {
+    padding: 10px;
+    background-color: grey;
+    color: black;
+    font-size: 15px;
+    border-radius: 10px;
+    border-width: 3px;
+}
+
+.card {
+    color: lightgrey;
+    background-color: #414144;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    min-width: 20;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125)
+}
+
+.workTitle {
+    padding-left: 200px;
+    padding-bottom: 0px;
+    padding-top: 20px;
+    font-size: 24px;
+    margin-bottom: -10px;
+}
+
+.pageDivider {
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+
+/*Media Query responsive flex and grids ===*/
+
+@media only screen and (max-width:600px) {
+
+    .content { 
+        height: 1000px;
+        grid-template-rows: 300px 300px;
+        grid-template-columns: 1fr;
+        grid-template-areas: "copy" "right"
+   }
+
+    .headshot {
+       padding: 200px 0px 0px 0px;
+   }
+
+   .skillsSection {
+       display: grid;
+       justify-content: center;
+       align-items: start;
+       width: 100%;
+       grid-template-rows: 150px 1fr 1fr 1fr 1fr 1fr 1fr;
+       grid-template-columns: 1fr;
+       grid-template-areas:
+        "skillsHeading"
+        "skillsTitle"
+        "card"
+        "skillsTitle"
+        "card"
+        "skillsTitle"
+        "card" 
+    }
+
+
+
+}
